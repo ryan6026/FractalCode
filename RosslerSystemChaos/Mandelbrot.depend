@@ -1,0 +1,606 @@
+# depslib dependency file v1.0
+1477789441 source:c:\cpp\projects\mandelbrot_set2.5\main.cpp
+	"MBset.h"
+	"Display.h"
+	"MBchannels.h"
+	<SDL.h>
+	<cmath>
+	<stdio.h>
+	<iostream>
+	<cstdlib>
+	<random>
+
+1477728385 c:\cpp\projects\mandelbrot_set2.5\display.h
+	<SDL.h>
+	<stdio.h>
+	<cmath>
+	<sstream>
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<iconv.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\begin_code.h
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\close_code.h
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cpp\libs\sdl2-2.0.4\i686-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1477789328 c:\cpp\projects\mandelbrot_set2.5\mbset.h
+	<cmath>
+	"AllocArray.h"
+	<iostream>
+
+1477634062 c:\cpp\projects\mandelbrot_set2.5\allocarray.h
+
+1477687185 c:\cpp\projects\mandelbrot_set2.5\mbchannels.h
+	"MBset.h"
+	"AllocArray.h"
+
+1477805120 source:c:\cpp\projects\compleximages\main.cpp
+	"MBset.h"
+	"Display.h"
+	"MBchannels.h"
+	<SDL.h>
+	<cmath>
+	<stdio.h>
+	<iostream>
+	<cstdlib>
+	<random>
+
+1477789545 c:\cpp\projects\compleximages\mbset.h
+	<cmath>
+	"AllocArray.h"
+	<iostream>
+
+1477800696 c:\cpp\projects\compleximages\allocarray.h
+
+1477801764 c:\cpp\projects\compleximages\display.h
+	<SDL.h>
+	<stdio.h>
+	<cmath>
+	<sstream>
+
+1477687185 c:\cpp\projects\compleximages\mbchannels.h
+	"MBset.h"
+	"AllocArray.h"
+
+1478304167 source:c:\cpp\projects\mandelbrot 2.6\main.cpp
+	"MBset.h"
+	"Display.h"
+	"MBchannels.h"
+	<SDL.h>
+	<cmath>
+	<stdio.h>
+	<iostream>
+	<cstdlib>
+	<random>
+
+1478306567 c:\cpp\projects\mandelbrot 2.6\mbset.h
+	<cmath>
+	"AllocArray.h"
+
+1478077135 c:\cpp\projects\mandelbrot 2.6\allocarray.h
+
+1478133322 c:\cpp\projects\mandelbrot 2.6\display.h
+	<SDL.h>
+	<stdio.h>
+	<cmath>
+	<sstream>
+
+1478160894 c:\cpp\projects\mandelbrot 2.6\mbchannels.h
+	"MBset.h"
+	"AllocArray.h"
+
+1035178803 c:\cpp\libs\gmp-static-mingw-4.1\gmp\include\gmp.h
+	<iosfwd>
+	<cstddef>
+	<stddef.h>
+
+1035178803 c:\cpp\projects\mandelbrot 2.6\gmp.h
+	<iosfwd>
+	<cstddef>
+	<stddef.h>
+
+1478735971 source:c:\cpp\projects\mandelbrot 2.6 - bignum\main.cpp
+	"MBset.h"
+	"Display.h"
+	"MBchannels.h"
+	<SDL.h>
+	<cmath>
+	<stdio.h>
+	<iostream>
+	<cstdlib>
+	<random>
+
+1478728243 c:\cpp\projects\mandelbrot 2.6 - bignum\mbset.h
+	<cmath>
+	"AllocArray.h"
+	"M_APM.H"
+	<stdlib.h>
+	<iostream>
+
+1478073535 c:\cpp\projects\mandelbrot 2.6 - bignum\allocarray.h
+
+1478592102 c:\cpp\projects\mandelbrot 2.6 - bignum\display.h
+	<SDL.h>
+	<stdio.h>
+	<cmath>
+	<sstream>
+	<iostream>
+
+1478472661 c:\cpp\projects\mandelbrot 2.6 - bignum\mbchannels.h
+	"MBset.h"
+	"AllocArray.h"
+
+1035178803 c:\cpp\projects\mandelbrot 2.6 - bignum\gmp.h
+	<iosfwd>
+	<cstddef>
+	<stddef.h>
+
+1266764400 source:c:\cpp\projects\mandelbrot 2.6 - bignum\mapm5sin.c
+	"m_apm_lc.h"
+
+1266764400 c:\cpp\projects\mandelbrot 2.6 - bignum\m_apm_lc.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"m_apm.h"
+
+1478576691 c:\cpp\projects\mandelbrot 2.6 - bignum\m_apm.h
+
+1266764400 source:c:\cpp\projects\mandelbrot 2.6 - bignum\mapm_add.c
+	"m_apm_lc.h"
+
+1266764400 source:c:\cpp\projects\mandelbrot 2.6 - bignum\mapm_cpi.c
+	"m_apm_lc.h"
+
+1266764400 source:c:\cpp\projects\mandelbrot 2.6 - bignum\mapm_div.c
+	"m_apm_lc.h"
+
+1266764400 source:c:\cpp\projects\mandelbrot 2.6 - bignum\mapm_exp.c
+	"m_apm_lc.h"
+
+1266764400 source:c:\cpp\projects\mandelbrot 2.6 - bignum\mapm_fam.c
+	"m_apm_lc.h"
+
+1266764400 source:c:\cpp\projects\mandelbrot 2.6 - bignum\mapm_fft.c
+	"m_apm_lc.h"
+
+1266764400 source:c:\cpp\projects\mandelbrot 2.6 - bignum\mapm_flr.c
+	"m_apm_lc.h"
+
+1266764400 source:c:\cpp\projects\mandelbrot 2.6 - bignum\mapm_fpf.c
+	"m_apm_lc.h"
+	<ctype.h>
+
+1266764400 source:c:\cpp\projects\mandelbrot 2.6 - bignum\mapm_gcd.c
+	"m_apm_lc.h"
+
+1266764400 source:c:\cpp\projects\mandelbrot 2.6 - bignum\mapm_lg2.c
+	"m_apm_lc.h"
+
+1266764400 source:c:\cpp\projects\mandelbrot 2.6 - bignum\mapm_lg3.c
+	"m_apm_lc.h"
+
+1266764400 source:c:\cpp\projects\mandelbrot 2.6 - bignum\mapm_lg4.c
+	"m_apm_lc.h"
+
+1266764400 source:c:\cpp\projects\mandelbrot 2.6 - bignum\mapm_log.c
+	"m_apm_lc.h"
+
+1266764400 source:c:\cpp\projects\mandelbrot 2.6 - bignum\mapm_mul.c
+	"m_apm_lc.h"
+
+1266764400 source:c:\cpp\projects\mandelbrot 2.6 - bignum\mapm_pow.c
+	"m_apm_lc.h"
+
+1266764400 source:c:\cpp\projects\mandelbrot 2.6 - bignum\mapm_rcp.c
+	"m_apm_lc.h"
+
+1266764400 source:c:\cpp\projects\mandelbrot 2.6 - bignum\mapm_rnd.c
+	"m_apm_lc.h"
+	<time.h>
+	<sys/timeb.h>
+	<sys/time.h>
+	<time.h>
+	<utility.h>
+	<ansi/math.h>
+
+1266764400 source:c:\cpp\projects\mandelbrot 2.6 - bignum\mapm_set.c
+	"m_apm_lc.h"
+
+1266764400 source:c:\cpp\projects\mandelbrot 2.6 - bignum\mapm_sin.c
+	"m_apm_lc.h"
+
+1266764400 source:c:\cpp\projects\mandelbrot 2.6 - bignum\mapmasin.c
+	"m_apm_lc.h"
+
+1266764400 source:c:\cpp\projects\mandelbrot 2.6 - bignum\mapmasn0.c
+	"m_apm_lc.h"
+
+1266764400 source:c:\cpp\projects\mandelbrot 2.6 - bignum\mapmcbrt.c
+	"m_apm_lc.h"
+
+1266764400 source:c:\cpp\projects\mandelbrot 2.6 - bignum\mapmcnst.c
+	"m_apm_lc.h"
+
+1266764400 source:c:\cpp\projects\mandelbrot 2.6 - bignum\mapmfact.c
+	"m_apm_lc.h"
+
+1266764400 source:c:\cpp\projects\mandelbrot 2.6 - bignum\mapmfmul.c
+	"m_apm_lc.h"
+
+1266764400 source:c:\cpp\projects\mandelbrot 2.6 - bignum\mapmgues.c
+	"m_apm_lc.h"
+
+1266764400 source:c:\cpp\projects\mandelbrot 2.6 - bignum\mapmhasn.c
+	"m_apm_lc.h"
+
+1266764400 source:c:\cpp\projects\mandelbrot 2.6 - bignum\mapmhsin.c
+	"m_apm_lc.h"
+
+1266764400 source:c:\cpp\projects\mandelbrot 2.6 - bignum\mapmipwr.c
+	"m_apm_lc.h"
+
+1266764400 source:c:\cpp\projects\mandelbrot 2.6 - bignum\mapmistr.c
+	"m_apm_lc.h"
+
+1266764400 source:c:\cpp\projects\mandelbrot 2.6 - bignum\mapmpwr2.c
+	"m_apm_lc.h"
+
+1266764400 source:c:\cpp\projects\mandelbrot 2.6 - bignum\mapmrsin.c
+	"m_apm_lc.h"
+
+1266764400 source:c:\cpp\projects\mandelbrot 2.6 - bignum\mapmsqrt.c
+	"m_apm_lc.h"
+
+1266764400 source:c:\cpp\projects\mandelbrot 2.6 - bignum\mapmstck.c
+	"m_apm_lc.h"
+
+1266764400 source:c:\cpp\projects\mandelbrot 2.6 - bignum\mapmutil.c
+	"m_apm_lc.h"
+
+1266764400 source:c:\cpp\projects\mandelbrot 2.6 - bignum\mapmutl1.c
+	"m_apm_lc.h"
+
+1266764400 source:c:\cpp\projects\mandelbrot 2.6 - bignum\mapmutl2.c
+	"m_apm_lc.h"
+
+1266764400 source:c:\cpp\projects\mandelbrot 2.6 - bignum\validate.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"m_apm.h"
+
+1266764400 c:\cpp\projects\mandelbrot 2.6 - bignum\mapmfmul.c
+	"m_apm_lc.h"
+
+1478899804 source:c:\cpp\projects\rosslersystem\main.cpp
+	"Display.h"
+	<SDL.h>
+	<cmath>
+	<stdio.h>
+	<iostream>
+	"AllocArray.h"
+
+1478857556 c:\cpp\projects\rosslersystem\display.h
+	<SDL.h>
+	<stdio.h>
+	<cmath>
+	<sstream>
+	<iostream>
+
+1478073535 c:\cpp\projects\rosslersystem\allocarray.h
+
