@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Mandelbrot_Set" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Mandelbrot_Set" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Mandelbrot_Set" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+			<Add option="-fexceptions" />
+			<Add directory="C:/cpp/SDL2-2.0.8/i686-w64-mingw32/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32 -lSDL2main -lSDL2" />
+			<Add library="C:/cpp/SDL2-2.0.8/i686-w64-mingw32/lib/libSDL2.a" />
+			<Add library="C:/cpp/SDL2-2.0.8/i686-w64-mingw32/lib/libSDL2.dll.a" />
+			<Add library="C:/cpp/SDL2-2.0.8/i686-w64-mingw32/lib/libSDL2_test.a" />
+			<Add library="C:/cpp/SDL2-2.0.8/i686-w64-mingw32/lib/libSDL2main.a" />
+			<Add directory="C:/cpp/SDL2-2.0.8/i686-w64-mingw32/lib" />
+		</Linker>
+		<Unit filename="Display.h" />
+		<Unit filename="FFT2D.h" />
+		<Unit filename="MBset.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
