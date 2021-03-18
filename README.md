@@ -64,21 +64,21 @@ todo: neural effects
 <p align="center">
   <img src="mix2.jpeg" width="350" title="hover text">
 </p>
-p align="center">
+<p align="center">
   <img src="mix.jpeg" width="350" title="hover text">
 </p>
 </p>
-p align="center">
+<p align="center">
   <img src="out-1.jpg" width="350" title="hover text">
 </p>
 
 </p>
-p align="center">
+<p align="center">
   <img src="yolo3.jpeg" width="350" title="hover text">
 </p>
 
 </p>
-p align="center">
+<p align="center">
   <img src="yolo4.jpeg" width="350" title="hover text">
 </p>
 
