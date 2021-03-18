@@ -1,7 +1,8 @@
 # FractalCode
 
 Code for mostly generating fractals and some spectral analysis and manipulation. Written in C++ with SDL2 and some FFT libraries such as KISS FFT and fftw
-todo: neural effects
+Fractals generated were stylized with deep convolutional neural networks using pytorch and lua (courtesy of jcjohnson).
+https://github.com/jcjohnson/fast-neural-style
 
 <p align="center">
   <img src="0.268-6.4341.jpeg" width="766" title="hover text">
